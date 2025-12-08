@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProREP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-  <header>
-      <h1>ProRep</h1>
-      <p>Empresas Gestoras</p>
+
+<body class="container py-4">
+  <div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/prorep_logo.png" class="img-fluid" style="max-height: 48px;" alt="Logo">
+      </a>
+    </div>
+  </nav>
+</div>
+</nav>
+
+  <header class="mb-4 text-center">
+      <h1>Empresas Gestoras</h1>
+      <p class="text-muted">Categorización de Gestores</p>
   </header>
 
-  <section>
 
-  </section>
+  <main>
+      <section id="gestores" class="row g-3"></section>
+  </main>
 
- <footer>
-    <h3>Evaluación Frontend – Unidad 3</h3>
-</footer>
+  <footer class="mt-4 text-center">
+      <small>Evaluación Frontend – Unidad 3</small>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+<script src="assets/js/mock.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+
+
 </body>
 </html>
