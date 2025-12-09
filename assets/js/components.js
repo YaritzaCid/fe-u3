@@ -1,4 +1,6 @@
+// ========================================================
 // UTIL: aplica color Tailwind o color.css como respaldo
+// ========================================================
 function applyColorAndClasses(el, tipo) {
   const tw = tipo?.color?.Tailwind;
   const css = tipo?.color?.css;
@@ -14,8 +16,12 @@ function applyColorAndClasses(el, tipo) {
   }
 }
 
+
+
+// ========================================================
 // COMPONENTE: BadgeTipo
 // Icono + color + nombre del tipo
+// ========================================================
 function BadgeTipo(tipo) {
   const badge = document.createElement("span");
   badge.classList.add(
@@ -45,18 +51,21 @@ function BadgeTipo(tipo) {
   return badge;
 }
 
+
+
+// ========================================================
 // COMPONENTE: CardGestor
 // Card completa de un gestor
+// ========================================================
 function CardGestor(gestor, empresaTiposCache = []) {
 
   // Expansión del tipo si viene solo como ID
   let tipo = gestor.empresa_tipo;
-
   if (typeof tipo === "number" || (tipo?.id && !tipo?.nombre)) {
     tipo = empresaTiposCache.find(t => t.id === (tipo.id ?? tipo));
   }
 
-  // fallback si no se encuentra el tipo
+  // fallback si no existe tipo
   if (!tipo) {
     tipo = {
       nombre: "Sin tipo",
@@ -65,9 +74,13 @@ function CardGestor(gestor, empresaTiposCache = []) {
     };
   }
 
-  // Columna responsiva
+  // Columna responsiva + CLASE PARA FILTRO
   const col = document.createElement("div");
-  col.classList.add("col-12", "col-md-6", "col-lg-4");
+  col.classList.add("col-12", "col-md-6", "col-lg-4", "tarjeta");
+
+  // Aquí agregamos los DATA necesarios para el filtro
+  col.dataset.nombre = gestor.nombre.toLowerCase();
+  col.dataset.tipo = tipo.nombre.toLowerCase();
 
   // Card
   const article = document.createElement("article");
@@ -77,10 +90,10 @@ function CardGestor(gestor, empresaTiposCache = []) {
   const header = document.createElement("header");
   header.classList.add("mb-2");
 
-  // Badge (color + icono)
+  // Badge dinámico
   header.appendChild(BadgeTipo(tipo));
 
-  // Título del gestor
+  // Nombre
   const h2 = document.createElement("h2");
   h2.classList.add("h5", "mb-1");
   h2.textContent = gestor.nombre;
@@ -98,7 +111,12 @@ function CardGestor(gestor, empresaTiposCache = []) {
   return col;
 }
 
+
+
+
+// ========================================================
 // RENDER: lista de gestores
+// ========================================================
 function RenderGestores(lista, empresaTiposCache = []) {
   const contenedor = document.getElementById("gestores");
   contenedor.innerHTML = "";
@@ -109,3 +127,4 @@ function RenderGestores(lista, empresaTiposCache = []) {
 
   contenedor.appendChild(frag);
 }
+

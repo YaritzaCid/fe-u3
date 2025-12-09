@@ -45,13 +45,88 @@ const mockGestores = [
   {
     "id": 1,
     "nombre": "Reciclajes Santiago Ltda.",
-    "empresa_tipo": { "id": 1 }, 
+    "empresa_tipo": { "id": 5 }, // ejemplo como id
     "activo": true
   },
   {
     "id": 2,
-    "nombre": "Aguilera & Aguilera Ltda..",
-    "empresa_tipo": { "id": 2 }, 
+    "nombre": "Aguilera & Aguilera Ltda.",
+    "empresa_tipo": { "id": 4 }, // ejemplo como id
     "activo": true
   },
+  {
+    "id": 3,
+    "nombre": "Agencias de Representaciones Ltda",
+    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+  },  
+  {
+    "id": 4,
+    "nombre": "Transportes y Comercial Tressa Ltda.",
+    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Tavan Chile S.A",
+    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "activo": true
+  },
+    {
+    "id": 6,
+    "nombre": "Adizol S.A",
+    "empresa_tipo": { "id": 1 }, // ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Bredenmaster SpA",
+    "empresa_tipo": { "id": 4 }, // ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 8,
+    "nombre": "Ingomar S.A",
+    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+  },  
+  {
+    "id": 9,
+    "nombre": "Liqui Moly Chile SpA",
+    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 10,
+    "nombre": "Mimet S.A",
+    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "activo": true
+  },
+    {
+    "id": 11,
+    "nombre": "Raylex Diginet S.A.",
+    "empresa_tipo": { "id": 1 }, // ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 12,
+    "nombre": "Siom SpA",
+    "empresa_tipo": { "id": 2 }, // ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 13,
+    "nombre": "Soquimich Comercial S.",
+    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+  },  
+  {
+    "id": 14,
+    "nombre": "Quiborax S.A",
+    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "activo": true
+  },
+  {
+    "id": 15,
+    "nombre": "Novaproduct SpA",
+    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "activo": true
+  }
 ];
