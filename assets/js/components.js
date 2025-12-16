@@ -71,7 +71,6 @@ function CardGestor(gestor, empresaTiposCache = []) {
   col.dataset.nombre = gestor.nombre.toLowerCase();
   col.dataset.tipo = tipo.nombre.toLowerCase();
   
-
   // Card
   const article = document.createElement("article");
   article.classList.add("card", "p-3", "shadow-sm", "h-100", "text-center");

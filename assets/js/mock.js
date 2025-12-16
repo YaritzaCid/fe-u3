@@ -45,7 +45,7 @@ const mockGestores = [
   {
     "id": 1,
     "nombre": "Reciclajes Santiago Ltda.",
-    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "empresa_tipo": { "id": 5 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -54,7 +54,7 @@ const mockGestores = [
   {
     "id": 2,
     "nombre": "Aguilera & Aguilera Ltda.",
-    "empresa_tipo": { "id": 4 }, // ejemplo como id
+    "empresa_tipo": { "id": 4 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -63,7 +63,7 @@ const mockGestores = [
   {
     "id": 3,
     "nombre": "Agencias de Representaciones Ltda",
-    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+    "empresa_tipo": { "id": 3 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -72,7 +72,7 @@ const mockGestores = [
   {
     "id": 4,
     "nombre": "Transportes y Comercial Tressa Ltda.",
-    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "empresa_tipo": { "id": 4 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -81,7 +81,7 @@ const mockGestores = [
   {
     "id": 5,
     "nombre": "Tavan Chile S.A",
-    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "empresa_tipo": { "id": 5 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -90,7 +90,7 @@ const mockGestores = [
     {
     "id": 6,
     "nombre": "Adizol S.A",
-    "empresa_tipo": { "id": 1 }, // ejemplo como id
+    "empresa_tipo": { "id": 1 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -99,7 +99,7 @@ const mockGestores = [
   {
     "id": 7,
     "nombre": "Bredenmaster SpA",
-    "empresa_tipo": { "id": 4 }, // ejemplo como id
+    "empresa_tipo": { "id": 4 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -108,7 +108,7 @@ const mockGestores = [
   {
     "id": 8,
     "nombre": "Ingomar S.A",
-    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+    "empresa_tipo": { "id": 3 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -117,7 +117,7 @@ const mockGestores = [
   {
     "id": 9,
     "nombre": "Liqui Moly Chile SpA",
-    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "empresa_tipo": { "id": 4 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -126,7 +126,7 @@ const mockGestores = [
   {
     "id": 10,
     "nombre": "Mimet S.A",
-    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "empresa_tipo": { "id": 5 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -135,7 +135,7 @@ const mockGestores = [
     {
     "id": 11,
     "nombre": "Raylex Diginet S.A.",
-    "empresa_tipo": { "id": 1 }, // ejemplo como id
+    "empresa_tipo": { "id": 1 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -144,7 +144,7 @@ const mockGestores = [
   {
     "id": 12,
     "nombre": "Siom SpA",
-    "empresa_tipo": { "id": 2 }, // ejemplo como id
+    "empresa_tipo": { "id": 2 },
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -153,7 +153,7 @@ const mockGestores = [
   {
     "id": 13,
     "nombre": "Soquimich Comercial S.",
-    "empresa_tipo": { "id": 3 }, //  ejemplo como id
+    "empresa_tipo": { "id": 3 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -162,7 +162,7 @@ const mockGestores = [
   {
     "id": 14,
     "nombre": "Quiborax S.A",
-    "empresa_tipo": { "id": 4 }, //  ejemplo como id
+    "empresa_tipo": { "id": 4 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,
@@ -171,7 +171,7 @@ const mockGestores = [
   {
     "id": 15,
     "nombre": "Novaproduct SpA",
-    "empresa_tipo": { "id": 5 }, // ejemplo como id
+    "empresa_tipo": { "id": 5 }, 
     "web": "www.sitio.cl",
     "correo": "correo@correo.cl",
     "telefono": +569000000,

@@ -98,7 +98,6 @@ gestoresFiltrados = mockGestores.filter(g => {
   renderPagina();
 }
 
-
 //INICIALIZACIÓN + EVENTOS
 document.addEventListener("DOMContentLoaded", () => {
 

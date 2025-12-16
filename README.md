@@ -1,7 +1,8 @@
 # Evaluación Unidad 3 – Desarrollo Frontend  
 **Proyecto:** Sistema de Gestión ProREP  
 **Asignatura:** Desarrollo Frontend  
-**Tipo:** Frontend (independiente del Backend)  
+**Tipo:** Frontend (independiente del Backend) 
+**Estudiante: Yaritza Cid 
 
 ---
 
@@ -121,67 +122,9 @@ La estructura del proyecto permite:
 El proyecto utiliza **Git y GitHub** para la gestión del código fuente:
 
 - Repositorio inicializado.
-- Commits descriptivos y significativos.
+- Commits descriptivos y significativos. - [Repositorio del proyecto](https://github.com/YaritzaCid/fe-u3)
 - Seguimiento del historial de cambios.
 - Estructura organizada del proyecto.
-
----
-
-## Interactividad y experiencia de usuario (3.2.1)
-
-La aplicación incluye:
-
-- Buscador por nombre en tiempo real.
-- Filtro por tipo de empresa.
-- Paginación de resultados.
-- Navegación fija para facilitar el acceso.
-- Interfaz clara y centrada en el usuario.
-
----
-
-## Optimización y rendimiento (3.2.2)
-
-- Renderizado eficiente del DOM.
-- Uso de fragmentos para minimizar reflows.
-- Uso de utilidades del framework Bootstrap.
-
----
-
-## Uso de frameworks (3.2.3)
-
-Se integra **Bootstrap 5** para:
-
-- Sistema de grillas responsivas.
-- Componentes UI (cards, nav, forms).
-- Utilidades de espaciado y alineación.
-
----
-
-## Consumo de endpoints (3.2.4)
-
-El proyecto incluye la estructura necesaria para consumir endpoints REST mediante `fetch`.
-Actualmente se utiliza un mock de datos para el desarrollo frontend, permitiendo una integración posterior con el backend sin cambios estructurales.
-
----
-
-## Seguridad (3.2.5)
-
-Desde el frontend se aplican principios básicos de seguridad:
-
-- No ejecución de HTML dinámico no confiable.
-- Separación de datos y vista.
-- Evita almacenamiento de información sensible.
-- Preparado para validaciones desde backend.
-
----
-
-## Documentación y mejora continua (3.2.6 – 3.2.7)
-
-- Proyecto documentado mediante README.
-- Código comentado y estructurado.
-- Refactorizaciones progresivas durante el desarrollo.
-- Enfoque en mejora continua del código y la experiencia de usuario.
-[Repositorio en GitHub](https://github.com/YaritzaCid/fe-u3)
 
 ---
 
@@ -193,7 +136,4 @@ Desde el frontend se aplican principios básicos de seguridad:
 
 ---
 
-## Autora
 
-**Nombre del estudiante:**  
-Desarrollo Frontend – Unidad 3  
